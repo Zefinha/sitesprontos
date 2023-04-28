@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:idroid ;
+    src: url(site/fontes/idroid.otf);
+}
+
+
+
+
+body{
+    background-color:#E8E6C2 ;
+    
+}
+header{
+    width: auto;
+    height: 250px;
+    background-image: linear-gradient(to top,#003a1b,#24aa5e);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+p#header{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+}
+
+nav{
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    font-size: 14px;
+    
+}
+span{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #61b485;
+    
+}
+span#destaque{
+    font-weight: bold;
+    color: #044019;
+
+}
+
+span#nav1:hover{
+    background-color:#1F8A4D ;
+    width: 50px;
+    height: 20px;
+    border-radius: 4px;
+    color: #044019;
+}
+main{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    
+}
+h2{
+    font-family:idroid ;
+    margin: auto;
+    padding: auto;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+p#main{
+    font-family: basker;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-indent: 30px;
+}
+p#header{
+    font-weight: bold;
+}
+
+
+h3{
+    font-family: idroid;
+    background-image: linear-gradient(to right,#5DF597,white);
+    padding-left: 15px;
+    
+}
+
+a{
+    background-color: #83e1ad;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #1F8A4D;
+}
+div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div#img{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+img#irina{
+    width: 100%;
+    padding-right: 20px;
+}
+
+div#video{
+    background-color: #044019;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+
+
+
+}
+iframe{
+    margin-top: 50px
+}
+
+aside{
+    background-color: #83e1ad;
+    padding: 10px;
+    border-radius: 10;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    margin-top: 20px;
+}
+
+aside > h4{
+    background-color: #1a5c37 ;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px
+}
+h4{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px
+}
+
+
+
